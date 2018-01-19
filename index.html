@@ -2,20 +2,31 @@
 <html class="no-js" lang="en-US">
 <head> 
 	<meta charset="UTF-8" />
-	<title>Unicum HTML Template</title>
+	<title>Portafolio Kevin Cruz</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!--
+	<meta property="og:title" content="About Our Company">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="http://www.mysite.com/article/">
+	<meta property="og:image" content="http://www.mysite.com/articleimage.jpg">
+	<meta property="og:site_name" content="Kevinjosue2326">
+	<meta property="fb:app_id" content="">
+	<meta property="og:description" content="A description of our services and company profile.">
+	-->
+	
 	<!-- CSS Animation libs styles -->
 	<link rel="stylesheet" href="css/libs/animate.min.css" type="text/css" media="all">
+	<!-- Font Awesome icon library -->
+	<link href="css/libs/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+	<!-- Load primary stylesheet -->
 	<link rel="stylesheet" href="css/skin.css" type="text/css" media="all">
 </head>
-<body class="preloader demo-page">
+<body class="home home-personal one-page preloader transparent-header parallax-footer">
 
 	<!--
 		Page preloader
 	-->
-    
 	<div id="preloader">
-    
 		<div class="timer"></div>
 	</div>
 
@@ -25,105 +36,498 @@
 	<div id="wrap">
 
 		<!--
-			For demo purposes only
+			Page header
 		-->
-		<div id="demo-sections">
+		<header class="headroom" id="header">
+		
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+					
+						<!--
+							Theme logo
+						-->
+						<a href="index.html" class="logo"><img src="images/logo-yellow.png" data-at2x="images/logo-yellow@2x.png" alt="Unicum - Premium HTML template" /></a>
+						
+						<!--
+							Navigation
+						-->
+						<nav id="header-nav" class="dl-menuwrapper" data-back-label="Back">
+										
+							<!--
+								Toggle menu for mobile devices
+								this element is hidden for desktop and large monitors
+							-->
+							<a href="javascript:;" id="mobile-menu-toggler" class="dl-trigger"><span>Toggle Menu</span></a>
+						
+							<ul id="header-menu" class="dl-menu">
+								<!--
+									First level menu
+								-->
+								<!-- <li>
+									<a href="#slider">
+										
+										<span class="line_wrap">
+											<span class="line"></span>
+											Portafolio
+										</span>
+									</a>
+								</li> -->
+								<!-- <li>
+									<a href="#about">
+										<span class="line_wrap">
+											<span class="line"></span>
+											About Me
+										</span>
+									</a>
+								</li> 
+								<li>
+									<a href="#services">
+										<span class="line_wrap">
+											<span class="line"></span>
+											Services
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#portfolio">
+										<span class="line_wrap">
+											<span class="line"></span>
+											Portfolio
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#blog">
+										<span class="line_wrap">
+											<span class="line"></span>
+											Blog
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#clients">
+										<span class="line_wrap">
+											<span class="line"></span>
+											Clients
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#pricing">
+										<span class="line_wrap">
+											<span class="line"></span>
+											Pricing
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#contact">
+										<span class="line_wrap">
+											<span class="line"></span>
+											Contact <i class="submenu-icon"></i>
+										</span>
+									</a>
+									-->
+									<!--
+										An example of second menu level
+									-->
+									<!-- <ul class="sub-menu dl-submenu">
+										<li><a class="external" href="blog-single.html">Blog Post</a></li>
+										<li><a class="external" href="header-scroll.html">Scroll Header</a></li>
+										<li><a class="external" href="header-simple.html">Simple Header</a></li>
+										<li><a class="external" href="footer-simple.html">Simple Footer</a></li>
+										<li><a class="external" href="sidebar-left.html">Left Side</a></li>
+										<li><a class="external" href="page.html">Page</a></li>
+										<li>
+											<a class="external" href="javascript:;">Right menu <i class="submenu-icon"></i></a>
+											
+										
+											<ul class="sub-menu dl-submenu appear-on-right">
+												<li><a class="external" href="javascript:;">Link 1</a></li>
+												<li><a class="external" href="javascript:;">Link 2</a></li>
+												<li><a class="external" href="javascript:;">Link 3</a></li>
+											</ul>
+											
+										</li>
+										<li>
+											<a class="external" href="javascript:;">Left menu <i class="submenu-icon"></i></a>
+											
+											
+											<ul class="sub-menu dl-submenu appear-on-left">
+												<li><a class="external" href="javascript:;">Some link 1</a></li>
+												<li><a class="external" href="javascript:;">Some link 2</a></li>
+												<li><a class="external" href="javascript:;">Some link 3</a></li>
+											</ul>
+											
+										</li>
+									</ul>
+									 -->
+								</li>
+							</ul>
+						</nav>
+					
+					</div>
+				</div>
+			</div>
+		
+		</header>
+		
+		<!--
+			Content section area
+		-->
+		<div id="content-wrapper">
 		
 			<!--
-				Agency demo
+				Home page slider
 			-->
-			<div class="demo-creative">
-			
-				<div class="container">
-					<div class="row">
-						<div class="col col-md-5 col-lg-4">
-						
-							<div class="text">
-								<a href="index-agency.html"><img src="images/logo.png" data-at2x="images/logo@2x.png" alt="Unicum - Premium HTML template" /></a>
-							
-								<h3><a href="index-agency.html">Creative Agency</a></h3>
-							
-								<a href="index-agency.html" class="button green">Live Preview</a>
-							</div>
-						
-						</div>
-						<div class="col col-md-7 col-lg-8 hidden-sm">
-						
-							<div class="images">
-								<img class="phone" src="images/01_agency_iphone.png" data-at2x="images/01_agency_iphone@2x.png" width="289" alt="" />
-								<img class="browser" src="images/01_agency_browser.png" data-at2x="images/01_agency_browser@2x.png" width="639" alt="" />
-							</div>
-						
-						</div>
-					</div>
-				</div>
-			
-			</div>
-			
-			<!--
-				App landing page demo
-			-->
-			<div class="demo-app">
-			
-				<div class="container">
-					<div class="row">
-						<div class="col col-md-5 col-lg-4">
-						
-							<div class="text">
-								<a href="index-app.html"><img src="images/logo-orange.png" data-at2x="images/logo-orange@2x.png" alt="Unicum - Premium HTML template" /></a>
-							
-								<h3><a href="index-app.html">App Showcase</a></h3>
-							
-								<a href="index-app.html" class="button orange">Live Preview</a>
-							</div>
-						
-						</div>
-						<div class="col col-md-7 col-lg-8 hidden-sm">
-						
-							<div class="images">
-								<img class="phone" src="images/02_app_iphone.png" data-at2x="images/02_app_iphone@2x.png" width="289" alt="" />
-								<img class="browser" src="images/02_app_browser.png" data-at2x="images/02_app_browser@2x.png" width="639" alt="" />
-							</div>
-							
-						</div>
-					</div>
-				</div>
-			
-			</div>
-			
-			<!--
-				Personal / CV demo
-			-->
-			<div class="demo-personal">
-			
-				<div class="container">
-					<div class="row">
-						<div class="col col-md-5 col-lg-4">
-						
-							<div class="text">
-								<a href="index-personal.html"><img src="images/logo-yellow.png" data-at2x="images/logo-yellow@2x.png" alt="Unicum - Premium HTML template" /></a>
-							
-								<h3><a href="index-personal.html">Personal Page</a></h3>
-							
-								<a href="index-personal.html" class="button yellow">Live Preview</a>
-							</div>
-						
-						</div>
-						<div class="col col-md-7 col-lg-8 hidden-sm">
-						
-							<div class="images">
-								<img class="phone" src="images/03_personal_iphone.png" data-at2x="images/03_personal_iphone@2x.png" width="289" alt="" />
-								<img class="browser" src="images/03_personal_browser.png" data-at2x="images/03_personal_browser@2x.png" width="639" alt="" />
-							</div>
-						
-						</div>
-					</div>
-				</div>
-			
-			</div>
-		
-		</div>
+			<div id="slider" class="section slider">
+				<!--
+					Slides
+				-->
+				<ul class="sequence-canvas">
+					<li style="background-image: url(images/demo-images/home_3_slider_1.jpg)">
 
+						<!-- slide layers -->
+						
+						<div class="layer">
+							<h2>Kevin Cruz<br />Research Scientific</h2>
+							<p>Site under construction, coming soon</p>
+						 	<!-- <a href="http://xqubits.com" class="button yellow">Learn More</a> -->
+						</div>
+
+					</li>
+				</ul>
+
+				<!-- 
+					Skip slider
+				
+				<a href="javascript:;" class="skip-slider"></a>
+				
+			</div>
+			
+			<!--
+				About me section
+			
+			<div class="section" id="about">
+			
+				<div class="container">
+					<div class="row">
+						<div class="col-md-offset-6 col-md-6">
+							<h2 class="h1 wow zoomInDown">About Me</h2>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio. </p>
+							<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+							<a href="javascript:;" class="button black">My Works</a>
+						</div>
+					</div>
+				</div>
+			
+			</div>
+			-->
+			<!--
+				Services video section
+			
+			<div class="section" id="services">
+			
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<h1>Watch this Video About <strong>My Work</strong></h1>
+							<a href="https://www.youtube.com/watch?v=ePLajxLpUNk" class="button-video-play lightbox wow wobble"></a>
+							<div class="video-description">Unicum Personal Theme<br />03:26</div>
+						</div>
+					</div>
+				</div>
+			
+			</div>
+			-->
+			<!--
+				Services video section
+			
+			<div class="section" id="benefits">
+			
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+						-->
+							<!--
+								Benefits
+							
+							<div class="benefits">
+							
+								<h2 class="h1 wow zoomInDown">What I Do Best!</h2>
+								
+								<div class="benefits-grid container-fluid">
+									<div class="row">
+									
+										<div class="col col-md-4">
+										-->
+											<!--
+												Benefit item
+											
+											<div class="benefit-item">
+											-->
+												<!--
+													Item SVG icon
+												
+												<i class="benefit-icon benefit-star"></i>
+												-->
+												<!--
+													Benefit text and description
+												--> 
+												<!--											
+												<div class="benefit-text">
+													-->
+													<!--
+														Benefit header
+													
+													<h6>Clean &amp; Trendy Design</h6>
+													-->
+													<!--
+														Benefit text
+													
+													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+													-->
+													<!--
+														Read more link with line-through effect
+													-->
+													<a href="javascript:;" class="read-more">
+														<span class="line_wrap">
+															<span class="line"></span>Read More
+														</span>
+													</a>
+												</div>
+											</div>
+										
+										</div>
+										
+										<div class="col col-md-4">
+										
+											<div class="benefit-item">
+												<i class="benefit-icon benefit-eye"></i>
+											
+												<div class="benefit-text">
+													<h6>Great Usability</h6>
+													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+													<a href="javascript:;" class="read-more">
+														<span class="line_wrap">
+															<span class="line"></span>Read More
+														</span>
+													</a>
+												</div>
+											</div>
+										
+										</div>
+										
+										<div class="col col-md-4">
+										
+											<div class="benefit-item">
+												<i class="benefit-icon benefit-equalizer"></i>
+											
+												<div class="benefit-text">
+													<h6>Easy to Customize</h6>
+													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+													<a href="javascript:;" class="read-more">
+														<span class="line_wrap">
+															<span class="line"></span>Read More
+														</span>
+													</a>
+												</div>
+											</div>
+										
+										</div>
+										
+									</div>
+									
+		
+		<footer id="footer">
+		
+			<div id="footer-widgets" class="container">
+				<div class="row">
+				<!--	<div class="col-md-8 col-md-offset-2">
+					
+						<a href="" class="footer-logo"><img src="images/logo-yellow.png" data-at2x="images/logo-yellow@2x.png" alt="Unicum - creative agency template" /></a>
+						
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+					
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4">
+						
+						<form class="subscribe-form" action="javascript:;" method="post">
+							<input type="email" placeholder="Your Email Address..." />
+							<input type="submit" />
+						</form>
+						
+						<div class="social-icons">
+							<a href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+							<a href="http://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+							<a href="http://plus.google.com" target="_blank"><i class="fa fa-google-plus"></i></a>
+							<a href="http://pinterest.com" target="_blank"><i class="fa fa-pinterest-p"></i></a>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			</div>
+										
+										<div class="col col-md-4">
+										
+											<div class="benefit-item">
+												<i class="benefit-icon benefit-eye"></i>
+											
+												<div class="benefit-text">
+													<h6>Great Usability</h6>
+													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+													<a href="javascript:;" class="read-more">
+														<span class="line_wrap">
+															<span class="line"></span>Read More
+														</span>
+													</a>
+												</div>
+											</div>
+										
+										</div>
+										
+										<div class="col col-md-4">
+										
+											<div class="benefit-item">
+												<i class="benefit-icon benefit-equalizer"></i>
+											
+												<div class="benefit-text">
+													<h6>Easy to Customize</h6>
+													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+													<a href="javascript:;" class="read-more">
+														<span class="line_wrap">
+															<span class="line"></span>Read More
+														</span>
+													</a>
+												</div>
+											</div>
+										
+										</div>
+										
+									</div>
+									<div class="row">
+									
+										<div class="col col-md-4">
+										
+											<div class="benefit-item">
+												<i class="benefit-icon benefit-graph"></i>
+											
+												<div class="benefit-text">
+													<h6>Optimized for SEO</h6>
+													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+													<a href="javascript:;" class="read-more">
+														<span class="line_wrap">
+															<span class="line"></span>Read More
+														</span>
+													</a>
+												</div>
+											</div>
+										
+										</div>
+										
+										<div class="col col-md-4">
+										
+											<div class="benefit-item">
+												<i class="benefit-icon benefit-phone"></i>
+											
+												<div class="benefit-text">
+													<h6>Responsive</h6>
+													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+													<a href="javascript:;" class="read-more">
+														<span class="line_wrap">
+															<span class="line"></span>Read More
+														</span>
+													</a>
+												</div>
+											</div>
+										
+										</div>
+										
+										<div class="col col-md-4">
+										
+											<div class="benefit-item">
+												<i class="benefit-icon benefit-chat"></i>
+											
+												<div class="benefit-text">
+													<h6>Incredible Support</h6>
+													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+													<a href="javascript:;" class="read-more">
+														<span class="line_wrap">
+															<span class="line"></span>Read More
+														</span>
+													</a>
+												</div>
+											</div>
+										
+										</div>
+									
+									</div>
+								</div>
+								
+							</div>
+						
+						</div>
+					</div>
+				</div>
+			
+			</div>
+			-->
+			<!--
+				Portfolio
+			-->
+		
+		<!--
+			Footer
+		-->
+		
+		<footer id="footer">
+		
+			<div id="footer-widgets" class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+					
+						<a href="" class="footer-logo"><img src="images/logo-yellow.png" data-at2x="images/logo-yellow@2x.png" alt="Unicum - creative agency template" /></a>
+						
+						<p>a machine never replaces the love that we can give, our follies and our mistakes that make us unique and human, by kevin Cruz</p>
+					
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4">
+						
+						<form class="subscribe-form" action="javascript:;" method="post">
+							<input type="email" placeholder="Your Email Address..." />
+							<input type="submit" />
+						</form>
+						
+						<!-- <div class="social-icons">
+							<a href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+							<a href="http://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+							<a href="http://plus.google.com" target="_blank"><i class="fa fa-google-plus"></i></a>
+							<a href="http://pinterest.com" target="_blank"><i class="fa fa-pinterest-p"></i></a>
+						</div> -->
+						
+					</div>
+				</div>
+			</div>
+			<div id="bottom-bar">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+						
+							<p>&copy;2018 <a href="">xqubits</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		</footer>
 	
 	</div>
 
@@ -141,6 +545,5 @@
 	<script src="js/all_in_one_libs.min.js"></script>
 	<script src="js/libs/jquery.dlmenu.js"></script>
 	<script src="js/front.js"></script>
-
 </body>
 </html>
