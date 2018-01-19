@@ -1,0 +1,24 @@
+// ==ClosureCompiler==
+// @compilation_level WHITESPACE_ONLY
+// @output_file_name all_in_one_libs.min.js
+// @code_url http://static.wplab.pro/dev_js/headroom.min.js
+// @code_url http://static.wplab.pro/dev_js/jQuery.headroom.min.js
+// @code_url http://static.wplab.pro/dev_js/jquery.justifiedGallery.min.js
+// @code_url http://static.wplab.pro/dev_js/jquery.fs.wallpaper.min.js
+// @code_url http://static.wplab.pro/dev_js/jquery.sequence-min.js
+// @code_url http://static.wplab.pro/dev_js/jquery.dlmenu.js
+// @code_url http://static.wplab.pro/dev_js/jquery.easing.min.js
+// @code_url http://static.wplab.pro/dev_js/jquery.singlePageNav.min.js
+// @code_url http://static.wplab.pro/dev_js/jquery.placeholder.min.js
+// @code_url http://static.wplab.pro/dev_js/jquery.scrollUp.min.js
+// @code_url http://static.wplab.pro/dev_js/jquery.waitforimages.js
+// @code_url http://static.wplab.pro/dev_js/lazyYT.min.js
+// @code_url http://static.wplab.pro/dev_js/modernizr.custom.js
+// @code_url http://static.wplab.pro/dev_js/nivo-lightbox.min.js
+// @code_url http://static.wplab.pro/dev_js/numinate.1.0.1.min.js
+// @code_url http://static.wplab.pro/dev_js/owl.carousel.min.js
+// @code_url http://static.wplab.pro/dev_js/retina.min.js
+// @code_url http://static.wplab.pro/dev_js/SmoothScroll.min.js
+// @code_url http://static.wplab.pro/dev_js/swiper.jquery.min.js
+// @code_url http://static.wplab.pro/dev_js/wow.min.js
+// ==/ClosureCompiler==
