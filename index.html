@@ -1,516 +1,887 @@
-<!doctype html>
-<html class="no-js" lang="en-US">
-<head> 
-	<meta charset="UTF-8" />
-	<title>Portafolio Kevin Cruz</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!--
-	<meta property="og:title" content="About Our Company">
-	<meta property="og:type" content="article">
-	<meta property="og:url" content="http://www.mysite.com/article/">
-	<meta property="og:image" content="http://www.mysite.com/articleimage.jpg">
-	<meta property="og:site_name" content="Kevinjosue2326">
-	<meta property="fb:app_id" content="">
-	<meta property="og:description" content="A description of our services and company profile.">
-	-->
-	
-	<!-- CSS Animation libs styles -->
-	<link rel="stylesheet" href="css/libs/animate.min.css" type="text/css" media="all">
-	<!-- Font Awesome icon library -->
-	<link href="css/libs/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
-	<!-- Load primary stylesheet -->
-	<link rel="stylesheet" href="css/skin.css" type="text/css" media="all">
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Kev's Portfolio</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
 </head>
-<body class="home home-personal one-page preloader transparent-header parallax-footer">
 
-	<!--
-		Page preloader
-	-->
-	<div id="preloader">
-		<div class="timer"></div>
-	</div>
+<body id="top">
 
-	<!--
-		Main wrapper
-	-->
-	<div id="wrap">
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
 
-		<!--
-			Page header
-		-->
-		<header class="headroom" id="header">
-		
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-					
-						<!--
-							Theme logo
-						-->
-						<a href="index.html" class="logo"><img src="images/logo-yellow.png" data-at2x="images/logo-yellow@2x.png" alt="Unicum - Premium HTML template" /></a>
-						
-						<!--
-							Navigation
-						-->
-						<nav id="header-nav" class="dl-menuwrapper" data-back-label="Back">
-										
-							<!--
-								Toggle menu for mobile devices
-								this element is hidden for desktop and large monitors
-							-->
-							<a href="javascript:;" id="mobile-menu-toggler" class="dl-trigger"><span>Toggle Menu</span></a>
-						
-							<ul id="header-menu" class="dl-menu">
-								<!--
-									First level menu
-								-->
-								<!-- <li>
-									<a href="#slider">
-										
-										<span class="line_wrap">
-											<span class="line"></span>
-											Portafolio
-										</span>
-									</a>
-								</li> -->
-								<!-- <li>
-									<a href="#about">
-										<span class="line_wrap">
-											<span class="line"></span>
-											About Me
-										</span>
-									</a>
-								</li> 
-								<li>
-									<a href="#services">
-										<span class="line_wrap">
-											<span class="line"></span>
-											Services
-										</span>
-									</a>
-								</li>
-								<li>
-									<a href="#portfolio">
-										<span class="line_wrap">
-											<span class="line"></span>
-											Portfolio
-										</span>
-									</a>
-								</li>
-								<li>
-									<a href="#blog">
-										<span class="line_wrap">
-											<span class="line"></span>
-											Blog
-										</span>
-									</a>
-								</li>
-								<li>
-									<a href="#clients">
-										<span class="line_wrap">
-											<span class="line"></span>
-											Clients
-										</span>
-									</a>
-								</li>
-								<li>
-									<a href="#pricing">
-										<span class="line_wrap">
-											<span class="line"></span>
-											Pricing
-										</span>
-									</a>
-								</li>
-								<li>
-									<a href="#contact">
-										<span class="line_wrap">
-											<span class="line"></span>
-											Contact <i class="submenu-icon"></i>
-										</span>
-									</a>
-									-->
-									<!--
-										An example of second menu level
-									-->
-									<!-- <ul class="sub-menu dl-submenu">
-										<li><a class="external" href="blog-single.html">Blog Post</a></li>
-										<li><a class="external" href="header-scroll.html">Scroll Header</a></li>
-										<li><a class="external" href="header-simple.html">Simple Header</a></li>
-										<li><a class="external" href="footer-simple.html">Simple Footer</a></li>
-										<li><a class="external" href="sidebar-left.html">Left Side</a></li>
-										<li><a class="external" href="page.html">Page</a></li>
-										<li>
-											<a class="external" href="javascript:;">Right menu <i class="submenu-icon"></i></a>
-											
-										
-											<ul class="sub-menu dl-submenu appear-on-right">
-												<li><a class="external" href="javascript:;">Link 1</a></li>
-												<li><a class="external" href="javascript:;">Link 2</a></li>
-												<li><a class="external" href="javascript:;">Link 3</a></li>
-											</ul>
-											
-										</li>
-										<li>
-											<a class="external" href="javascript:;">Left menu <i class="submenu-icon"></i></a>
-											
-											
-											<ul class="sub-menu dl-submenu appear-on-left">
-												<li><a class="external" href="javascript:;">Some link 1</a></li>
-												<li><a class="external" href="javascript:;">Some link 2</a></li>
-												<li><a class="external" href="javascript:;">Some link 3</a></li>
-											</ul>
-											
-										</li>
-									</ul>
-									 -->
-								</li>
-							</ul>
-						</nav>
-					
-					</div>
-				</div>
-			</div>
-		
-		</header>
-		
-		<!--
-			Content section area
-		-->
-		<div id="content-wrapper">
-		
-			<!--
-				Home page slider
-			-->
-			<div id="slider" class="section slider">
-				<!--
-					Slides
-				-->
-				<ul class="sequence-canvas">
-					<li style="background-image: url(images/demo-images/home_3_slider_1.jpg)">
+        <div class="header-logo">
+        </div>
 
-						<!-- slide layers -->
-						
-						<div class="layer">
-							<h2>Kevin Cruz<br />Research Scientific</h2>
-							<p>Site under construction, coming soon</p>
-						 	<!-- <a href="http://xqubits.com" class="button yellow">Learn More</a> -->
-						</div>
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
+                <li><a class="smoothscroll"  href="#blog" title="blog">Blog</a></li>
+                <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+            </ul>
+        </nav>
 
-					</li>
-				</ul>
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
 
-				<!-- 
-					Skip slider
-				
-				<a href="javascript:;" class="skip-slider"></a>
-				
-			</div>
-			
-			<!--
-				About me section
-			
-			<div class="section" id="about">
-			
-				<div class="container">
-					<div class="row">
-						<div class="col-md-offset-6 col-md-6">
-							<h2 class="h1 wow zoomInDown">About Me</h2>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio. </p>
-							<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
-							<a href="javascript:;" class="button black">My Works</a>
-						</div>
-					</div>
-				</div>
-			
-			</div>
-			-->
-			<!--
-				Services video section
-			
-			<div class="section" id="services">
-			
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2">
-							<h1>Watch this Video About <strong>My Work</strong></h1>
-							<a href="https://www.youtube.com/watch?v=ePLajxLpUNk" class="button-video-play lightbox wow wobble"></a>
-							<div class="video-description">Unicum Personal Theme<br />03:26</div>
-						</div>
-					</div>
-				</div>
-			
-			</div>
-			-->
-			<!--
-				Services video section
-			
-			<div class="section" id="benefits">
-			
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-						-->
-							<!--
-								Benefits
-							
-							<div class="benefits">
-							
-								<h2 class="h1 wow zoomInDown">What I Do Best!</h2>
-								
-								<div class="benefits-grid container-fluid">
-									<div class="row">
-									
-										<div class="col col-md-4">
-										-->
-											<!--
-												Benefit item
-											
-											<div class="benefit-item">
-											-->
-												<!--
-													Item SVG icon
-												
-												<i class="benefit-icon benefit-star"></i>
-												-->
-												<!--
-													Benefit text and description
-												--> 
-												<!--											
-												<div class="benefit-text">
-													-->
-													<!--
-														Benefit header
-													
-													<h6>Clean &amp; Trendy Design</h6>
-													-->
-													<!--
-														Benefit text
-													
-													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-													-->
-													<!--
-														Read more link with line-through effect
-													-->
-													<a href="javascript:;" class="read-more">
-														<span class="line_wrap">
-															<span class="line"></span>Read More
-														</span>
-													</a>
-												</div>
-											</div>
-										
-										</div>
-										
-										
-										
-										
-									</div>
-									
-		
-		<footer id="footer">
-		
-			<div id="footer-widgets" class="container">
-				<div class="row">
-				<!--	<div class="col-md-8 col-md-offset-2">
-					
-						<a href="" class="footer-logo"><img src="images/logo-yellow.png" data-at2x="images/logo-yellow@2x.png" alt="Unicum - creative agency template" /></a>
-						
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
-					
-					</div>
-				</div>
-				
-				<div class="row">
-					<div class="col-md-4 col-md-offset-4">
-						
-						<form class="subscribe-form" action="javascript:;" method="post">
-							<input type="email" placeholder="Your Email Address..." />
-							<input type="submit" />
-						</form>
-						
-						<div class="social-icons">
-							<a href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
-							<a href="http://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
-							<a href="http://plus.google.com" target="_blank"><i class="fa fa-google-plus"></i></a>
-							<a href="http://pinterest.com" target="_blank"><i class="fa fa-pinterest-p"></i></a>
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			</div>
-										
-										<div class="col col-md-4">
-										
-											<div class="benefit-item">
-												<i class="benefit-icon benefit-eye"></i>
-											
-												<div class="benefit-text">
-													<h6>Great Usability</h6>
-													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-													<a href="javascript:;" class="read-more">
-														<span class="line_wrap">
-															<span class="line"></span>Read More
-														</span>
-													</a>
-												</div>
-											</div>
-										
-										</div>
-										
-										<div class="col col-md-4">
-										
-											<div class="benefit-item">
-												<i class="benefit-icon benefit-equalizer"></i>
-											
-												<div class="benefit-text">
-													<h6>Easy to Customize</h6>
-													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-													<a href="javascript:;" class="read-more">
-														<span class="line_wrap">
-															<span class="line"></span>Read More
-														</span>
-													</a>
-												</div>
-											</div>
-										
-										</div>
-										
-									</div>
-									<div class="row">
-									
-										<div class="col col-md-4">
-										
-											<div class="benefit-item">
-												<i class="benefit-icon benefit-graph"></i>
-											
-												<div class="benefit-text">
-													<h6>Optimized for SEO</h6>
-													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-													<a href="javascript:;" class="read-more">
-														<span class="line_wrap">
-															<span class="line"></span>Read More
-														</span>
-													</a>
-												</div>
-											</div>
-										
-										</div>
-										
-										<div class="col col-md-4">
-										
-											<div class="benefit-item">
-												<i class="benefit-icon benefit-phone"></i>
-											
-												<div class="benefit-text">
-													<h6>Responsive</h6>
-													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-													<a href="javascript:;" class="read-more">
-														<span class="line_wrap">
-															<span class="line"></span>Read More
-														</span>
-													</a>
-												</div>
-											</div>
-										
-										</div>
-										
-										<div class="col col-md-4">
-										
-											<div class="benefit-item">
-												<i class="benefit-icon benefit-chat"></i>
-											
-												<div class="benefit-text">
-													<h6>Incredible Support</h6>
-													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-													<a href="javascript:;" class="read-more">
-														<span class="line_wrap">
-															<span class="line"></span>Read More
-														</span>
-													</a>
-												</div>
-											</div>
-										
-										</div>
-									
-									</div>
-								</div>
-								
-							</div>
-						
-						</div>
-					</div>
-				</div>
-			
-			</div>
-			-->
-			<!--
-				Portfolio
-			-->
-		
-		<!--
-			Footer
-		-->
-		
-		<footer id="footer">
-		
-			<div id="footer-widgets" class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
-					
-						<a href="" class="footer-logo"><img src="images/logo-yellow.png" data-at2x="images/logo-yellow@2x.png" alt="Unicum - creative agency template" /></a>
-						
-						<p>a machine never replaces the love that we can give, our follies and our mistakes that make us unique and human, by kevin Cruz</p>
-					
-					</div>
-				</div>
-				
-				<div class="row">
-					<div class="col-md-4 col-md-offset-4">
-						
-						<form class="subscribe-form" action="javascript:;" method="post">
-							<input type="email" placeholder="Your Email Address..." />
-							<input type="submit" />
-						</form>
-						
-						<!-- <div class="social-icons">
-							<a href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
-							<a href="http://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
-							<a href="http://plus.google.com" target="_blank"><i class="fa fa-google-plus"></i></a>
-							<a href="http://pinterest.com" target="_blank"><i class="fa fa-pinterest-p"></i></a>
-						</div> -->
-						
-					</div>
-				</div>
-			</div>
-			<div id="bottom-bar">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-						
-							<p>&copy;2018 <a href="">xqubits</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		
-		</footer>
-	
-	</div>
+    </header> <!-- end s-header -->
 
-	<!--
-		Theme's JavaScript
-		It is located at the bottom of the page to increase site's loading speed
-	-->
-	<!-- JQuery can be loaded from CDN, change SRC attribute into "//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" -->
-	<script src="js/libs/jquery.min.js"></script>
-	<!--
-		Here we load all JS libs, packed into one single file to increase loading speed
-		in case you need to load libraries one-by one or you need to remove one of them,
-		see /js/libs/directory/, it contains all JS libs, used by theme 
-	-->
-	<script src="js/all_in_one_libs.min.js"></script>
-	<script src="js/libs/jquery.dlmenu.js"></script>
-	<script src="js/front.js"></script>
+
+   <!-- home
+   ================================================== -->
+   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/01.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <!-- <h3>Hello There</h3> -->
+
+                <h1>
+                    I am Kevin Cruz <br>
+                    Scientific researcher & <br>
+                    AI Developer
+                </h1>
+
+                <div class="home-content__buttons">
+                    <a href="#works" class="smoothscroll btn btn--stroke">
+                        Latest Projects
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                        More About Me
+                    </a>
+                </div>
+
+                <div class="home-content__scroll">
+                    <a href="#about" class="scroll-link smoothscroll">
+                        <span>Scroll Down</span>
+                    </a>
+                </div>
+
+            </div>
+
+        </div> <!-- end home-content -->
+
+        <ul class="home-social">
+            <li>
+                <a href="https://twitter.com/kevinjosue2326"><i class="im im-twitter" aria-hidden="true"></i><span>Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/kevinjosue23267"><i class="im im-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/kevinjosue/"><i class="im im-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
+            </li>
+            <li>
+                <a href=" https://github.com/kevinjosue2326"><i class="im im-github" aria-hidden="true"></i><span>Pinterest</span></a>
+            </li>
+        </ul> 
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+        
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full text-center">
+                <h3>About</h3>
+                <h1>I'm passionate about science and research</h1>
+                <p class="lead">I have been developing applications with Machine Learning for 5 years. I'm carryig out an important project for the Organization of the United Nations; it's about  prediction with recurrent neural networks in time series to predict the climate at a national level,  and thus be able to improve the control of agronomic crops in my country. Also I've made Robotics Projects with Artificial Intelligence.</p>
+            </div>
+        </div>
+
+        <div class="row about-content">
+
+            <div class="col-six tab-full left">
+                <h3>Experience!</h3>
+
+                <p>My experience with video game engines: <b>Game Maker, game editor, RPG Maker, Unity (Advanced), Unreal Engine 4 (Advanced), Custom Unreal Engine Development, tools and Neptup Engine (Own Engine Development)</b></p>
+
+               <p>
+               Management of Development Environment:<b> Eclipse, NetBeans, Visual Studio and Xcode, Anaconda, Jupyter notebook and spyder</b>.</p>
+               <p> 
+               Experience in Artificial Intelligence Framework:<b> Tensorflow, Caffe2, Keras, Theano and Pytorch</b>.</p>
+               <p>
+               Development of homebrew for Nintendo DS, Contributions in (Libraries of Palib, and Dekitpro) for Nintendo Wii
+                </p>
+            </div>
+
+            <div class="col-six tab-full right">
+                <h3>Skills.</h3>
+
+                <ul class="skill-bars">
+                    <li>
+                    <div class="progress percent100"><span>100%</span></div>
+                    <strong>C++</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>Python</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent80"><span>80%</span></div>
+                    <strong>Java</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent65"><span>65%</span></div>
+                    <strong>Assembler</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent85"><span>82%</span></div>
+                    <strong>Cuda</strong>
+                    </li>   
+                    <li>
+                    <div class="progress percent80"><span>80%</span></div>
+                    <strong>C#</strong>
+                    </li>   
+                </ul>
+            </div>
+
+        </div> <!-- end about-content -->
+
+        <div class="row about-content">
+
+            <div class="col-six tab-full left">
+                <h3>Languages</h3>
+                <ul>
+                    <li>Spanish (Native)</li>
+                    <li>Technical English</li>
+                    <li>Japanese Advanced</li>
+                    <li>Basic French</li>
+                </ul>
+                <h3>Operating systems management</h3>
+                 <p>Use of Operating Systems: <b>FreeBSD, Linux-based systems, Mac OS and Windows Advanced.</b></p>                
+            </div>
+
+            <div class="col-six tab-full right">
+               
+                <h3>Extra experience</h3>
+                <p>Microsoft Development of Quantum Algorithms – <b>Certification in Q#</b>
+                <br>Active member of Quantum Algorithms development for IBM Q Experience</p>
+                <p>
+                </p>
+            </div>
+
+        </div> <!-- end about-content -->
+
+        <div class="row about-content about-content--buttons">
+
+            <div class="col-six tab-full left">
+                <a href="#0" class="btn btn--primary full-width">Download My CV</a>
+            </div>
+            <div class="col-six tab-full right">
+                <a href="#0" class="btn full-width">Hire Me Now</a>
+            </div>
+
+        </div> <!-- end about-content buttons -->
+
+        <div class="row about-content about-content--timeline">
+
+            <div class="col-full text-center">
+                <h3>My Work Experience.</h3>
+            </div>
+
+            <div class="col-six tab-full left">
+                <div class="timeline">
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">November 2017 - Present</p>
+                            <h3>Treecloud Technologies</h3>
+                            <h5>Founder and CTO</h5>
+                        </div>
+                        <div class="timeline__desc">    
+                            <p>Development of Tools with Deep Learning Technology (Artificial Intelligence)</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+                   
+
+                </div> <!-- end timeline -->
+            </div> <!-- end left -->
+
+            <div class="col-six tab-full right">
+                <div class="timeline">
+
+                     <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">May 2015 - November 2017</p>
+                            <h3>Vertexwave VW </h3>
+                            <h5>FullStack Developer</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>Creation, development and management of Multiplatform Software.
+                                <br>
+                            Engine Developer of Physics, Dynamic Systems and Artificial Intelligence</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+
+                </div> <!-- end timeline -->
+            </div> <!-- end right -->
+
+        </div> <!-- end about-content timeline -->
+
+    </section> <!-- end about -->
+    
+
+    <!-- works
+    ================================================== -->
+    <!-- <section id="works" class="s-works target-section"> -->
+
+      <!--   <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full">
+                <h3>Portfolio</h3>
+                <h1>See My Latest Projects.</h1>
+                
+                <p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
+            </div>
+        </div> -->
+
+        <!-- <div class="row masonry-wrap"> -->
+            <!-- <div class="masonry"> -->
+
+                <!-- <div class="masonry__brick"> -->
+                    <!-- <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                <img src="images/portfolio/beetle.jpg" 
+                                     srcset="images/portfolio/beetle.jpg 1x, images/portfolio/beetle@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                The Beetle
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Development
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+
+                    </div> -->
+                     <!-- end item-folio -->
+                <!-- </div>  -->
+                <!-- end masonry__brick -->
+
+                <!-- <div class="masonry__brick"> -->
+                    <!-- <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-lighthouse.jpg" class="thumb-link" title="Lighthouse" data-size="1050x700">
+                                <img src="images/portfolio/lighthouse.jpg" 
+                                     srcset="images/portfolio/lighthouse.jpg 1x, images/portfolio/lighthouse@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Lighthouse
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+
+                    </div> -->
+                     <!-- end item-folio -->
+                <!-- </div> -->
+                 <!-- end masonry__brick -->
+
+                <!-- <div class="masonry__brick"> -->
+                    <!-- <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-salad.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/salad.jpg" 
+                                     srcset="images/portfolio/salad.jpg 1x, images/portfolio/salad@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Salad
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> -->
+                     <!-- end item-folio -->
+                <!-- </div>  -->
+                <!-- end masonry__brick -->
+
+                <!-- <div class="masonry__brick"> -->
+                   <!--  <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/woodcraft.jpg"
+                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Woodcraft
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> -->
+                     <!-- end item-folio -->
+                <!-- </div>  -->
+                <!-- end masonry__brick -->
+
+                <!-- <div class="masonry__brick"> -->
+                   <!--  <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-skaterboy.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/skaterboy.jpg"
+                                     srcset="images/portfolio/skaterboy.jpg 1x, images/portfolio/skaterboy@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Skaterboy
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Development
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div>  -->
+                    <!-- end item-folio -->
+                <!-- </div>  -->
+                <!-- end masonry__brick -->
+
+                <!-- <div class="masonry__brick"> -->
+                    <!-- <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-liberty.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/liberty.jpg"
+                                     srcset="images/portfolio/liberty.jpg 1x, images/portfolio/liberty@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Liberty
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> -->
+                     <!-- end item-folio -->
+                <!-- </div>  -->
+                <!-- end masonry__brick -->
+
+                <!-- <div class="masonry__brick"> -->
+                    <!-- <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-minimalismo.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/minimalismo.jpg"
+                                     srcset="images/portfolio/minimalismo.jpg 1x, images/portfolio/minimalismo@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Minimalismo
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div>  -->
+                    <!-- end item-folio -->
+                <!-- </div>  -->
+                <!-- end masonry__brick -->
+
+                <!-- <div class="masonry__brick"> -->
+                   <!--  <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/shutterbug.jpg"
+                                     srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Lady Shutterbug
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div>  -->
+                    <!-- end item-folio -->
+                <!-- </div>  -->
+                <!-- end masonry__brick -->
+
+            <!-- </div> -->
+        <!-- </div>  -->
+        <!-- end masonry -->
+
+    <!-- </section>  -->
+    <!-- end works -->
+
+
+
+   
+    <!-- blog
+    ================================================== -->
+    <!-- <section id="blog" class="s-blog target-section"> -->
+
+       <!--  <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full">
+                <h3>Events</h3>
+                <h1>Participation in</h1>
+                <p class="lead"></p>
+            </div>
+        </div> -->
+
+        <!-- <div class="row blog-content"> -->
+<!--             <div class="col-full"> -->
+
+                <!-- <div class="blog-list block-1-2 block-tab-full">
+                     <article class="col-block">
+                        
+                        <div class="blog-date">
+                            <a href="blog-single.html">2018</a>
+                        </div>
+
+                        <h2 class="h01"><a href="blog-single.html">El Salvador University</a></h2>
+                        <p>Third International Congress of Applied Mathematics UES
+                        </p>
+
+                        <div class="blog-cat">
+                            <a href="blog.html">Branding</a><a href="blog.html">Wordpress</a>
+                        </div>
+                    </article>
+                   
+                    <article class="col-block">
+                                
+                        <div class="blog-date">
+                            <a href="blog-single.html">2017</a>
+                        </div>  
+                        
+                        <h2 class="h01"><a href="blog-single.html">Kaggle</a></h2>
+                        <p>Participated in Data Science Competencies</p>
+
+                        <div class="blog-cat">
+                            <a href="blog.html">Photography</a>
+                        </div>
+
+                        
+                    </article>
+                   
+                     <article class="col-block">
+                                
+                        <div class="blog-date">
+                            <a href="blog-single.html">2015</a>
+                        </div>  
+                        
+                        <h2 class="h01"><a href="blog-single.html">Campus Party</a></h2>
+                        <p>Winner of White Hacking Competition CTF - Regional Level.</p>
+
+                        <div class="blog-cat">
+                                <a href="blog.html">Branding</a><a href="blog.html">Design</a>
+                        </div>
+
+                        
+                    </article>
+                    <article class="col-block">
+                        <div class="blog-date">
+                            <a href="blog-single.html">Sept 12, 2017</a>
+                        </div>    
+                        <h2 class="h01"><a href="blog-single.html">Using Patterns in your Branding.</a></h2>
+                        <p>
+                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh.
+                        </p>
+
+                        <div class="blog-cat">
+                            <a href="blog.html">Design</a><a href="blog.html">Branding</a>
+                        </div>
+                    </article>
+                </div>  --><!-- end blog-list -->
+
+            <!-- </div>  --><!-- end col-full -->
+        <!-- </div>  -->
+        <!-- end blog-content -->
+
+    <!-- </section> -->
+
+     <!-- end s-blog -->
+
+
+    <!-- s-cta
+    ================================================== -->
+    <section class="s-cta">
+        
+        <div class="row narrow cta">
+
+          <!--   <div class="col-full cta__content">
+
+                <h2 class="h01"><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Styleshout Recommends Dreamhost.</a></h2>
+
+                <p class="lead">
+                Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">DreamHost</a>.
+                Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>.
+                </p>
+
+                <div class="cta__action">
+                    <a class="btn btn--primary btn--large" href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Sign Up Now</a>
+                </div>	
+
+            </div> -->
+
+        </div> <!-- end cta -->
+        
+    </section>
+
+
+    <!-- s-stats
+    ================================================== -->
+    <section id="stats" class="s-stats">
+        <div class="row block-1-4 block-tab-1-2 block-mob-full stats">
+
+            <div class="col-block stats__col ">
+                <div class="stats__count">
+                    128
+                </div>
+                <h4>Read books</h4>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">
+                    1500
+                </div>
+                <h4>Cups of Coffee</h4>
+            </div>
+            <div class="col-block stats__col stats__col--highlight">
+                <div class="stats__upsign">
+                    <a href="#"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                </div>
+                <div class="stats__count">
+                    110
+                </div>
+                <h4>Projects Completed</h4>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">
+                    101
+                </div>
+                <h4>Happy Clients</h4> 
+            </div>
+
+        </div>
+    </section> <!-- end s-stats -->
+
+
+    <!-- s-stats
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+        <div class="overlay"></div>
+
+        <div class="row narrow section-intro">
+            <div class="col-full">
+                <h3>Contact</h3>
+                <h1>Send a Message.</h1>
+                
+                <p class="lead"></p>
+            </div>
+        </div>
+
+        <div class="row contact__main">
+            <div class="col-eight tab-full contact__form">
+                <form name="contactForm" id="contactForm" method="post" action="">
+                    <fieldset>
+    
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                        <button class="full-width btn--primary">Submit</button>
+                        <div class="submit-loader">
+                            <div class="text-loader">Sending...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    </fieldset>
+                </form>
+
+                <!-- contact-warning -->
+                <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div> 
+            
+                <!-- contact-success -->
+                <div class="message-success">
+                    Your message was sent, thank you!<br>
+                </div>
+                        
+            </div>
+            <div class="col-four tab-full contact__infos">
+                <h4 class="h06">Phone</h4>
+                <p>Phone: (+503) 6183-1725<br>
+                </p>
+
+                <h4 class="h06">Email</h4>
+                kjcmdark@gmail.com<br>
+                </p>
+
+                <h4 class="h06">Address</h4>
+                <p>
+                San Salvador<br>
+                El Salvador
+                </p>
+            </div>
+
+        </div>
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full">
+
+                <div class="footer-logo">
+                    <a class="footer-site-logo" href="#0"><img src="images/glider.png" alt="Homepage"></a>
+                </div>
+
+                <ul class="footer-social">
+                    <li><a href="https://twitter.com/kevinjosue2326">
+                        <i class="im im-twitter" aria-hidden="true"></i>
+                        <span>Twitter</span>
+                    </a></li>
+                    <li><a href="https://www.instagram.com/kevinjosue23267">
+                        <i class="im im-instagram" aria-hidden="true"></i>
+                        <span>Instagram</span>
+                    </a></li>
+                    <li><a href="https://www.linkedin.com/in/kevinjosue/">
+                        <i class="im im-linkedin" aria-hidden="true"></i>
+                        <span>Linkedin</span>
+                    </a></li>
+                    <li><a href=" https://github.com/kevinjosue2326">
+                        <i class="im im-github" aria-hidden="true"></i>
+                        <span>Github</span>
+                    </a></li>
+                </ul>
+                    
+            </div>
+        </div>
+
+        <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright Kevin Cruz 2018</span> 
+                    <span>Design by <a href="https://www.treecloud.co/">TreeCloud</a></span>	
+                </div>
+
+                <div class="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
+
 </html>
